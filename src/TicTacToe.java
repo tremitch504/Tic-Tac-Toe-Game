@@ -14,6 +14,10 @@ public class TicTacToe {
         char[][] gameBoard = {{'1', '7', '8'}, 
                          {'6', '3', '2' }, 
                          {'9', '4', '5'}};
+        printGameBoard(gameBoard);
+    }
+
+    private static void printGameBoard(char[][] gameBoard) {
         System.out.println(gameBoard[0][0] + "|" + gameBoard[0][1] + "|" + gameBoard[0][2]);
         System.out.println("----***---");
         System.out.println(gameBoard[1][0] + "|" + gameBoard[1][1] + "|" + gameBoard[1][2]);
